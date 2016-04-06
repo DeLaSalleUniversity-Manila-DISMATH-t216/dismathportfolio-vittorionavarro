@@ -32,8 +32,18 @@
 ![Screenshot](bigo.jpg)
 * Algorithm Time Complexity
 * Division and Modulo Operator
-  let a be an integer and d positive integer. Then there is a unique Q and r with 0 ≤ r < d such that a = dQ + r
-  Q = a div d
-  r = a mod d
+  - Let a be an integer and d positive integer. Then there is a unique Q and r with 0 ≤ r < d such that a = dQ + r.
+  - Q = a div d
+  - r = a mod d
 
-    
+##Week 12
+* Graph Theory
+* Graphs - discrete structures consisting of vertices and edges that connect these vertices.  
+* Degree - is the number of edges incident with it. A loop in a vertex contributes twice.
+* Isolated - is a vertex of degree zero.
+* Pendant - is a vertex of degree one.
+* Handshaking Theory - 2e = ∑deg(v)
+![Screenshot] (subgraph.jpg)
+![Screenshot] (union.jpg)
+
+* 

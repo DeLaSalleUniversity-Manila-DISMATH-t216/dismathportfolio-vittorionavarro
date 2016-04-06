@@ -30,5 +30,10 @@
     - Big-Ω, lower bound
     - Big-ϴ, both upper and lower bound
 ![Screenshot](bigo.jpg)
+* Algorithm Time Complexity
+* Division and Modulo Operator
+  let a be an integer and d positive integer. Then there is a unique Q and r with 0 ≤ r < d such that a = dQ + r
+  Q = a div d
+  r = a mod d
 
     

@@ -48,4 +48,6 @@
 * Unions
 ![Screenshot] (union.jpg)
 
-* 
+* Path - sequence of edges travelling from vertex to vertex along the edges
+* Euler Circuit - passes through every edge and goes back to the starting point. Has even number of degrees.
+* Euler Path - passes through every edge but does not go back to the starting point. Has exactly 2 odd degrees.

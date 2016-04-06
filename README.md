@@ -43,7 +43,9 @@
 * Isolated - is a vertex of degree zero.
 * Pendant - is a vertex of degree one.
 * Handshaking Theory - 2e = ∑deg(v)
+* Subgraphs
 ![Screenshot] (subgraph.jpg)
+* Unions
 ![Screenshot] (union.jpg)
 
 * 

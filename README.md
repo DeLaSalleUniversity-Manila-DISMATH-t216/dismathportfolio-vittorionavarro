@@ -15,15 +15,15 @@
 **Pseudocode** Is a high-level desciption of an algorithm that uses the structural conventions of programming knowledge
 **Finding the Max**
 **Finding the Min**
-**Linear Search**
+**Linear Search** <br>
 ![Screenshot](linear.jpg)
-**Binary Search**
+**Binary Search** <br>
 ![Screenshot](binary.jpg)
 
 ##Week 9
-**Bubble Sort**
+**Bubble Sort** <br>
 ![Screenshot](bubblesort.jpg)
-**Insert Sort**
+**Insert Sort** <br>
 ![Screenshot](insertsort.jpg)
 **Greedy Algorithm**
 

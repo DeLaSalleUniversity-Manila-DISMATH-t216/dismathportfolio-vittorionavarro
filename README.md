@@ -3,16 +3,16 @@
 ##Week 8
 **Algorithms** 
   - Is a finite set of precise instructions
-**Properties of Algorithm:**
-  * INPUT 
-  * OUTPUT
-  * DEFINITENESS
-  * CORRECTNESS
-  * FINITENESS
-  * GENERALITY
-  * EFFECTIVENESS
-**Pseudocode**
-  - Is a high-level desciption of an algorithm that uses the structural conventions of programming knowledge
+	- **Properties of Algorithm:**
+	  * INPUT
+	  * OUTPUT
+	  * DEFINITENESS
+	  * CORRECTNESS
+	  * FINITENESS
+	  * GENERALITY
+	  * EFFECTIVENESS
+	  
+**Pseudocode** Is a high-level desciption of an algorithm that uses the structural conventions of programming knowledge
 **Finding the Max**
 **Finding the Min**
 **Linear Search**

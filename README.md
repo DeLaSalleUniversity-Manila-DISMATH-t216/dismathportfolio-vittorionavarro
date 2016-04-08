@@ -57,6 +57,5 @@
 ![Screenshot](matrix.jpg)
 
 *Isomorphism of Graphs
-
 *Planar Graphs - graphs that can be drawn in the plane without the edges crossing each other.
 *Euler's Formula: r = e - v + 2

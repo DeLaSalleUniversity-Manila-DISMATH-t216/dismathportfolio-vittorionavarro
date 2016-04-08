@@ -13,22 +13,22 @@
 	  * EFFECTIVENESS
 	  
 **Pseudocode** Is a high-level desciption of an algorithm that uses the structural conventions of programming knowledge
-**Finding the Max**
-**Finding the Min**
-**Linear Search** <br>
-![Screenshot](linear.jpg)
-**Binary Search** <br>
-![Screenshot](binary.jpg)
+- **Searching Algorithms**
+  - Linear Search <br>
+  ![ScreenShot](linear.jpg) 
+  - Binary Search <br>
+  ![ScreenShot](binary.jpg) 
 
 ##Week 9
-**Bubble Sort** <br>
-![Screenshot](bubblesort.jpg)
-**Insert Sort** <br>
-![Screenshot](insertsort.jpg)
+- **Sorting Algorithms**
+  - Bubble Sort <br>
+  ![ScreenShot](bubblesort.jpg) 
+  - Insertion Sort <br>
+  ![ScreenShot](insertsort.jpg)
 **Greedy Algorithm**
 
 ##Week 10
-**Growth of Functions
+**Growth of Functions**
   * Using Big-O, Big-Ω,and Big-ϴ
     - Big-O, upper bound
     - Big-Ω, lower bound

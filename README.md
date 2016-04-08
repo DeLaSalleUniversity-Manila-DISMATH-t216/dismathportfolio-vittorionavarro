@@ -56,6 +56,7 @@
 * Matrices of Graphs - connected is 1; not connected is 0
 ![Screenshot](matrix.jpg)
 
-*Isomorphism of Graphs 
+*Isomorphism of Graphs
+
 *Planar Graphs - graphs that can be drawn in the plane without the edges crossing each other.
 *Euler's Formula: r = e - v + 2

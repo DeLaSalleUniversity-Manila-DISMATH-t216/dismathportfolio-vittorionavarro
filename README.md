@@ -48,6 +48,38 @@
 |      p<br>q<br>∴p ∧ q     |      ((p) ∧ (q)) → (p ∧ q)     |       Conjunction      |
 | p ∨ q<br>¬p ∨ r<br>∴q ∨ r | ((p ∨ q) ∧ (¬p ∨ r)) → (q ∨ r) |       Resolution       |
 
+- **Introduction to Proof**
+	- **Proof** - is a valid argument that establishes the truth to a theorem.
+- **Methods of Proof**
+  1. Direct Proof
+  2. Proof by Contraposition (Indirect)
+  3. Vacuous and Trivial Proofs
+  4. Proof by Contradiction (Indirect)
+  5. Proof by Equivalence
+  6. Mathematical Induction
+  
+##Week 4
+
+- *Continuation of Proof*
+	1. **Direct Proof** (P → Q): 
+  - Steps in constructing Direct Proof:
+    1. Assume that P (hypothesis) is true.
+    2. Use P to show that Q (conclusion) must be true.
+    	2. **Proof by Contraposition** (¬Q → ¬P): 
+  - Steps in constructing Contrapositive Proof:
+    1. Assume that ¬Q is true.
+    2. Show that ¬P is also true.
+    	3. **Vacuous & Trivial Proofs**: 
+  - Vacuous Proof: It is a proof that P → Q is true based on the fact that P is false.
+    - ¬P → (P → Q)
+    	4. **Proof by Contradiction**:
+  - Steps in constructing Proof by Contradiction:
+    1. Assume P is true.
+    2. Assume ¬Q is true.
+    3. Demonstrate a contradiction.
+
+##Week 5
+- *Continuation of Methods of Proof*
 
 ##Week 8
 **Algorithms** 

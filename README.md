@@ -61,18 +61,21 @@
 ##Week 4
 
 - *Continuation of Proof*
-	1. **Direct Proof** (P → Q): 
+- **Methods of Proof**
+- [1/6] **Direct proof** (P → Q): 
   - Steps in constructing Direct Proof:
     1. Assume that P (hypothesis) is true.
     2. Use P to show that Q (conclusion) must be true.
-    	2. **Proof by Contraposition** (¬Q → ¬P): 
+- [2/6] **Proof by Contraposition** (¬Q → ¬P): 
   - Steps in constructing Contrapositive Proof:
     1. Assume that ¬Q is true.
     2. Show that ¬P is also true.
-    	3. **Vacuous & Trivial Proofs**: 
+- [3/6] **Vacuous & Trivial Proofs**: 
   - Vacuous Proof: It is a proof that P → Q is true based on the fact that P is false.
     - ¬P → (P → Q)
-    	4. **Proof by Contradiction**:
+  - Trivial Proof: It is a proof that P → Q is true based on the fact that Q is true.
+    - Q → (P → Q)
+- [4/6] **Proof by Contradiction**:
   - Steps in constructing Proof by Contradiction:
     1. Assume P is true.
     2. Assume ¬Q is true.
@@ -80,7 +83,50 @@
 
 ##Week 5
 - *Continuation of Methods of Proof*
+- [5/6] **Proof by Equivalence** (Biconditionals):
+  - P ↔ Q ≡ (P → Q) ∧ (Q → P)
+  - Steps in constructing Proof by Equivalence:
+    - Show P → Q is true.
+    - Show Q → P is true.
+- [6/6] **Mathematical Induction**:
+  - Steps in constructing Mathematical Induction:
+    1. Show P(1) or P(0) to be true.
+    2. Assume P(k) is true.
+    3. Show P(k+1) to be true.
 
+##Week 7
+- **Introduction to Set Theory** - a set is an unordered collection of distinct objects, which may be anything.
+    - {a, b, d, c, f, e}
+  - Empty Set { } = ∅ means no elements
+    - {∅} not an empty set
+  - Set Builder Notation 
+    - {x | some property that x satisfies}
+  - Membership
+    - 1 ∈ {1, 3, 5, 7}
+- **Set Identities**
+
+|  **Laws**  |  **Identity**  |
+| :------: | :-----------------------------: |
+|  Identity Laws  |  A ⋂ U ≡ A  <br>  A ⋃ ∅ ≡ A  |
+|  Domination Laws  |  A ⋃ U ≡ U  <br>  A ⋂ ∅ ≡ ∅  |
+|  Idempotent Laws  |  A ⋃ A ≡ A  <br>  A ⋂ A ≡ A  |
+|  Complementation Law  |  (A¯)‾ ≡ A  |
+|  Commutative Laws  |  A ⋃ B ≡ B ⋃ A  <br>  A ⋂ B ≡ B ⋂ A  |
+|  Associative Laws  |  A ⋃ (B ⋃ C) ≡ (A ⋃ B) ⋃ C  <br>  A ⋂ (B ⋂ C) ≡ (A ⋂ B) ⋂ C  |
+|  Distributive Laws  |  A ⋃ (B ⋂ C) ≡ (A ⋃ B) ⋂ (A ⋃ C) <br>  A ⋂ (B ⋃ C) ≡ (A ⋂ B) ⋃ (A ⋂ C)  |
+|  De Morgan's Laws  |  (A ⋂ B)‾ ≡ A‾ ⋃ B‾  <br>  (A ⋃ B)‾ ≡ A‾ ⋂ B‾  |
+|  Absorption Laws  |  A ⋃ (A ⋂ B) ≡ A  <br>  A ⋂ (A ⋃ B) ≡ A  |
+|  Complement Laws  |  A ⋃ A‾ ≡ U  <br>  A ⋂ A‾ ≡ ∅  |
+
+- **Subsets** (⊆) - A set S is a subset of a set T (denotes S ⊆ T) if all elements of S are also elements of T.
+- **Power Set** P(S) = {T|T ⊆ S}
+- **Cardinality** - the cardinality of a set is the number of element it contains.
+- **Functions**
+- **Types of Functions**
+    - One-to-one Function (Injection) - functions that never assign the same value to two different domain elements.
+    - Onto Function (Surjective) - functions have equal range & co-domain.
+    - One-to-one Correspondence (Bijection) - function is both one-to-one and onto.
+   	
 ##Week 8
 **Algorithms** 
   - is a finite set of precise instructions

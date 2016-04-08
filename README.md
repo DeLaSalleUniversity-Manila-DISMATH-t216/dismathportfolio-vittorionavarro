@@ -94,6 +94,9 @@
     2. Assume P(k) is true.
     3. Show P(k+1) to be true.
 
+##Week 6
+- *Absent*
+
 ##Week 7
 - **Introduction to Set Theory** - a set is an unordered collection of distinct objects, which may be anything.
     - {a, b, d, c, f, e}

@@ -28,10 +28,6 @@
 |                 p v (p ∧ q) ≡ p <br> p ∧ (p v q) ≡ p             |   Absorption laws   |
 |                     p v ¬p ≡ T <br> p ∧ ¬p ≡ F                   |    Negation laws    |
 
-- **Quantifiers**
-	- *Existential Quantifiers* (∀) - indiciates "there exists"
-	- *Universal Quantifiers* (∃) - indicates "for all"
-
 ##Week 3
 - **Tautology** - proposition that is always true.
 - **Fallacy** - an invalid argument.
@@ -48,89 +44,54 @@
 |      p<br>q<br>∴p ∧ q     |      ((p) ∧ (q)) → (p ∧ q)     |       Conjunction      |
 | p ∨ q<br>¬p ∨ r<br>∴q ∨ r | ((p ∨ q) ∧ (¬p ∨ r)) → (q ∨ r) |       Resolution       |
 
+##Week 4
+
+- **Quantifiers**
+	- *Existential Quantifiers* (∀) - indiciates "there exists"
+	- *Universal Quantifiers* (∃) - indicates "for all"
+	
+##Week 5
+
 - **Introduction to Proof**
 	- **Proof** - is a valid argument that establishes the truth to a theorem.
+	
 - **Methods of Proof**
   1. Direct Proof
   2. Proof by Contraposition (Indirect)
-  3. Vacuous and Trivial Proofs
-  4. Proof by Contradiction (Indirect)
-  5. Proof by Equivalence
-  6. Mathematical Induction
+  3. Proof by Contradiction (Indirect)
+  4. Proof by Equivalence
+  5. Mathematical Induction
   
-##Week 4
-
-- *Continuation of Proof*
 - **Methods of Proof**
-- [1/6] **Direct proof** (P → Q): 
+- [1/4] **Direct proof** (P → Q): 
   - Steps in constructing Direct Proof:
     1. Assume that P (hypothesis) is true.
     2. Use P to show that Q (conclusion) must be true.
-- [2/6] **Proof by Contraposition** (¬Q → ¬P): 
+- [2/4] **Proof by Contraposition** (¬Q → ¬P): 
   - Steps in constructing Contrapositive Proof:
     1. Assume that ¬Q is true.
     2. Show that ¬P is also true.
-- [3/6] **Vacuous & Trivial Proofs**: 
-  - Vacuous Proof: It is a proof that P → Q is true based on the fact that P is false.
-    - ¬P → (P → Q)
-  - Trivial Proof: It is a proof that P → Q is true based on the fact that Q is true.
-    - Q → (P → Q)
-- [4/6] **Proof by Contradiction**:
+- [3/4] **Proof by Contradiction**:
   - Steps in constructing Proof by Contradiction:
     1. Assume P is true.
     2. Assume ¬Q is true.
     3. Demonstrate a contradiction.
-
-##Week 5
-- *Continuation of Methods of Proof*
-- [5/6] **Proof by Equivalence** (Biconditionals):
+- [4/4] **Proof by Equivalence** (Biconditionals):
   - P ↔ Q ≡ (P → Q) ∧ (Q → P)
   - Steps in constructing Proof by Equivalence:
     - Show P → Q is true.
     - Show Q → P is true.
-- [6/6] **Mathematical Induction**:
-  - Steps in constructing Mathematical Induction:
-    1. Show P(1) or P(0) to be true.
-    2. Assume P(k) is true.
-    3. Show P(k+1) to be true.
+
+**Quiz Week**
+
 
 ##Week 6
-- *Absent*
-
-##Week 7
-- **Introduction to Set Theory** - a set is an unordered collection of distinct objects, which may be anything.
-    - {a, b, d, c, f, e}
-  - Empty Set { } = ∅ means no elements
-    - {∅} not an empty set
-  - Set Builder Notation 
-    - {x | some property that x satisfies}
-  - Membership
-    - 1 ∈ {1, 3, 5, 7}
-- **Set Identities**
-
-|  **Laws**  |  **Identity**  |
-| :------: | :-----------------------------: |
-|  Identity Laws  |  A ⋂ U ≡ A  <br>  A ⋃ ∅ ≡ A  |
-|  Domination Laws  |  A ⋃ U ≡ U  <br>  A ⋂ ∅ ≡ ∅  |
-|  Idempotent Laws  |  A ⋃ A ≡ A  <br>  A ⋂ A ≡ A  |
-|  Complementation Law  |  (A¯)‾ ≡ A  |
-|  Commutative Laws  |  A ⋃ B ≡ B ⋃ A  <br>  A ⋂ B ≡ B ⋂ A  |
-|  Associative Laws  |  A ⋃ (B ⋃ C) ≡ (A ⋃ B) ⋃ C  <br>  A ⋂ (B ⋂ C) ≡ (A ⋂ B) ⋂ C  |
-|  Distributive Laws  |  A ⋃ (B ⋂ C) ≡ (A ⋃ B) ⋂ (A ⋃ C) <br>  A ⋂ (B ⋃ C) ≡ (A ⋂ B) ⋃ (A ⋂ C)  |
-|  De Morgan's Laws  |  (A ⋂ B)‾ ≡ A‾ ⋃ B‾  <br>  (A ⋃ B)‾ ≡ A‾ ⋂ B‾  |
-|  Absorption Laws  |  A ⋃ (A ⋂ B) ≡ A  <br>  A ⋂ (A ⋃ B) ≡ A  |
-|  Complement Laws  |  A ⋃ A‾ ≡ U  <br>  A ⋂ A‾ ≡ ∅  |
-
-- **Subsets** (⊆) - A set S is a subset of a set T (denotes S ⊆ T) if all elements of S are also elements of T.
-- **Power Set** P(S) = {T|T ⊆ S}
-- **Cardinality** - the cardinality of a set is the number of element it contains.
 - **Functions**
 - **Types of Functions**
     - One-to-one Function (Injection) - functions that never assign the same value to two different domain elements.
     - Onto Function (Surjective) - functions have equal range & co-domain.
     - One-to-one Correspondence (Bijection) - function is both one-to-one and onto.
-   	
-##Week 8
+    
 **Algorithms** 
   - is a finite set of precise instructions
 	- **Properties of Algorithm:**
@@ -145,11 +106,12 @@
 **Pseudocode** - is a high-level desciption of an algorithm that uses the structural conventions of programming knowledge.
 - **Searching Algorithms**
   - Linear Search <br>
-  ![ScreenShot](linear.jpg) 
+  ![ScreenShot](linear.jpg)     
+   	
+##Week 8
+- *Continuation of Searching Algorithms*
   - Binary Search <br>
   ![ScreenShot](binary.jpg) 
-
-##Week 9
 - **Sorting Algorithms**
   - Bubble Sort <br>
   ![ScreenShot](bubblesort.jpg) 
@@ -166,21 +128,8 @@
     - Big-ϴ, both upper and lower bound <br>
     ![Screenshot](bigo.jpg)
 
-**Algorithm Time Complexity**
-	
-| Complexity  |   Terminology  |
-|:-----------:|:--------------:|
-| (1) | Constant  complexity  |
-| (log n) | Logarithmic complexity |
-| (n) | Linear complexity |
-| (n^b) | Polynomial complexity |
-| (b^n), where b > 1 | Exponential complexity |
-| (n!) | Factorial complexity |
+**Quiz Week**
 
-**Division and Modulo Operator**
-  - Let a be an integer and d positive integer. Then there is a unique Q and r with 0 ≤ r < d such that a = dQ + r.
-  	- Q = a div d
-	- r = a mod d
 
 ##Week 11
 *No classes due to holy week*

@@ -108,7 +108,7 @@
   - Linear Search <br>
   ![ScreenShot](linear.jpg)     
    	
-##Week 8
+##Week 7
 - *Continuation of Searching Algorithms*
   - Binary Search <br>
   ![ScreenShot](binary.jpg) 
@@ -120,7 +120,7 @@
   - Greedy Algorithm <br>
   ![Screenshot](greedy.jpg)
 
-##Week 10
+##Week 8
 **Growth of Functions**
   * Using Big-O, Big-Ω,and Big-ϴ
     - Big-O, upper bound
@@ -131,10 +131,7 @@
 **Quiz Week**
 
 
-##Week 11
-*No classes due to holy week*
-
-##Week 12
+##Week 9
 **Graph Theory**
   - **Graphs** - discrete structures consisting of vertices and edges that connect these vertices.  
   	- **Degree** - is the number of edges incident with it. A loop in a vertex contributes twice.
@@ -156,6 +153,9 @@
   - **Matrices of Graphs** - connected is 1; not connected is 0 <br>
   ![Screenshot](matrix.jpg)
 
+**Quiz Week**
+
+##Week 10
   - **Isomorphism of Graphs** - The graphs are isomorphic if there exists a one-to-one and onto function.
   - **Planar Graphs** - graphs that can be drawn in the plane without the edges crossing each other.
   - **Euler's Formula** : r = e - v + 2
@@ -164,7 +164,6 @@
 	- v - vertices
   - **Kuratowski's Theorem** - a graph is nonplanar if and only if it contains a subgraph homeomorphic to K3,3 or K5.
 
-##Week 13
 - *Continuation of Graph Theory*
 	- **Graph Coloring**: assignment of a color to each vertex of the graph so that no two adjacent vertices are assigned the same color.
 	- The *Chromatic Number* (χ) of a graph is the least number of colors needed for graph coloring.
@@ -182,6 +181,5 @@
 			- n vertices has i = (n − 1)/m internal vertices and l = [(m − 1)n + 1]/m leaves
 			- i internal vertices has n = mi + 1 vertices and l = (m − 1)i + 1 leaves
 			- l leaves has n = (ml − 1)/(m − 1) vertices and i = (l − 1)/(m − 1) internal vertices.
-
-##Week 14
+		
 **Finals Week**
